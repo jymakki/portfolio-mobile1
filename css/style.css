@@ -1,0 +1,184 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    color: #7d8561;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 65pt;
+    margin: 40pt;
+}
+
+.about p{
+    font-size: 38pt;
+    margin: 40pt;
+    word-wrap: break-word;
+}
+
+.nav_item a.active {
+    border-radius: 5pt;
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+  }
+
+  .nav_item{
+      padding: 5pt;
+  }
+
+  .nav_links{
+    list-style-type: none;
+    /* padding-left: 10pt; */
+    margin-left: 20pt;
+    margin-top: 10pt;
+  }
+
+
+.nav_links a:hover{
+    background-color: #7d8561;
+    color: white;
+    border-radius: 5pt;
+    padding: 5px 8px;
+      }
+
+footer{
+    /* position: relative; */
+    width:100%;
+    min-height: 10px;
+    background-color:#000000;
+    margin-top: 150px;
+}
+
+footer p{
+    font-size: 20pt;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* TCK Page CSS Formatting */
+
+
+.tck h2{
+    display:inline-block;
+    margin-left:1em;
+    font-size: 50pt;
+}
+.tck p{
+    /* text-indent: 50pt; */
+    font-size: 30pt;
+    display:inline-block;
+    margin-left:1.5em;
+}
+
+
+.tck img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  /* Travel.html CSS Formatting  */
+
+.lebanon{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.lebanon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item3{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.item6{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+
+
+.saudi img{
+    display: grid;
+    grid-template-columns: auto;
+    height: auto;
+    width: 100%;
+}
+
+.usa img{
+    display: grid;
+    grid-template-columns: auto;
+    height: auto;
+    width: 100%;
+}
+
+.turkey img{
+    display: grid;
+    grid-template-columns: auto;
+    height: auto;
+    width: 100%;
+}
+
+.spain img{
+    display: grid;
+    grid-template-columns: auto;
+    height: auto;
+    width: 100%;
+}
+
+.portugal img{
+    display: grid;
+    grid-template-columns: auto;
+    height: auto;
+    width: 100%;
+}
+
+
